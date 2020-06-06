@@ -28,7 +28,7 @@
      	exit();
      }
 
-     $insert = "insert into user (email,user_pass,user_name,country,age) values('$email','$pass','$name','$count','20')";
+     $insert = "INSERT INTO user (email,user_pass,user_name,country,age) values('$email','$pass','$name','$count','20')";
 
      $query = mysqli_query($con,$insert);
 
